@@ -1,0 +1,35 @@
+>> #My information code
+>>> My_info = {
+... "Name": "Kazadi Ngoie",
+... "Slack Username": "@Tatiene",
+... "Email": "tatianangoie17@gamil.com",
+... "Hobby": "Gaming",
+... "Country": "South Africa",
+... "Discipline": "Bioinformatics",
+... "Preferred Language": "Python"
+... }
+>>>
+>>> #to print all information in a structured way
+>>> print(f"""
+... My Information:
+...
+...     Name: {My_info['Name']}
+...     Slack Username: {My_info['Slack Username']}
+...     Email: {My_info['Email']}
+...     Hobby: {My_info['Hobby']}
+...     Country: {My_info['Country']}
+...     Discipline: {My_info['Discipline']}
+...     Preferred Language: {My_info['Preferred Language']}
+...     """)
+
+My Information:
+
+    Name: Kazadi Ngoie
+    Slack Username: @Tatiene
+    Email: tatianangoie17@gamil.com
+    Hobby: Gaming
+    Country: South Africa
+    Discipline: Bioinformatics
+    Preferred Language: Python
+
+>>>
