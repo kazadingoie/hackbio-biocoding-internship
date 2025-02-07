@@ -1,1 +1,101 @@
+Team Members Information:
+team_info= [
+    {
+        "Name": "Kazadi Ngoie",
+        "Slack Username": "@Tatiene",
+        "Email": "tatianangoie17@gmail.com",
+        "Hobby": "Gaming",
+        "Country": "South Africa",
+        "Discipline": "Bioinformatics",
+        "Preferred Language": "Python"
+    },
+    {
+        "Name": "Bezaleel Akinbami",
+        "Slack Username": "@Bez",
+        "Email": "bezaleelakinbami16@gmail.com",
+        "Hobby": "Gaming",
+        "Country": "Nigeria",
+        "Discipline": "Bioinformatics ",
+        "Preferred Language": "R"
+    },
+    {
+        "Name": "Hana Nadir",
+        "Slack Username": "@Hana",
+        "Email": "hananadir04@gmail.com",
+        "Hobby": "Reading",
+        "Country": "Sudan",
+        "Discipline": "Medecinal chemistery and drug discovery",
+        "Preferred Language": "Python"
+    },
+    {
+        "Name": "Onyinye Maryrose Ugwu ",
+        "Slack Username": "@Onyinye",
+        "Email": "monyinye80@gmail.com",
+        "Hobby": "Travelling",
+        "Country": "Nigeria",
+        "Discipline": "Zoology",
+        "Preferred Language": "Python"
+    },
+    {
+        "Name": "Sanzida Akhter Anee",
+        "Slack Username": "@ethan_b",
+        "Email": "aneesanzidaakhter@gmail.com",
+        "Hobby": "Blogging",
+        "Country": "Sudan",
+        "Discipline": "Bioinformatics",
+        "Preferred Language": "Python"
+    }
+]
+print("Team Members Information:\n")
 
+for member in team_info:
+    print(f"Name: {member['Name']}")
+    print(f"Slack Username: {member['Slack Username']}")
+    print(f"Email: {member['Email']}")
+    print(f"Hobby: {member['Hobby']}")
+    print(f"Country: {member['Country']}")
+    print(f"Discipline: {member['Discipline']}")
+    print(f"Preferred Language: {member['Preferred Language']}")
+
+Team Members Information:
+
+Name: Kazadi Ngoie
+Slack Username: @Tatiene
+Email: tatianangoie17@gmail.com
+Hobby: Gaming
+Country: South Africa
+Discipline: Bioinformatics
+Preferred Language: Python
+----------------------------------------
+Name: Bezaleel Akinbami
+Slack Username: @Bez
+Email: bezaleelakinbami16@gmail.com
+Hobby: Gaming
+Country: Nigeria
+Discipline: Bioinformatics 
+Preferred Language: R
+----------------------------------------
+Name: Hana Nadir
+Slack Username: @Hana
+Email: hananadir04@gmail.com
+Hobby: Reading
+Country: Sudan
+Discipline: Medecinal chemistery and drug discovery
+Preferred Language: Python
+----------------------------------------
+Name: Onyinye Maryrose Ugwu 
+Slack Username: @Onyinye
+Email: monyinye80@gmail.com
+Hobby: Travelling
+Country: Nigeria
+Discipline: Zoology
+Preferred Language: Python
+----------------------------------------
+Name: Sanzida Akhter Anee
+Slack Username: @ethan_b
+Email: aneesanzidaakhter@gmail.com
+Hobby: Blogging
+Country: Sudan
+Discipline: Bioinformatics
+Preferred Language: Python
+----------------------------------------
