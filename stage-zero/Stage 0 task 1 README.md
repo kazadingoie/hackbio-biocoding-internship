@@ -1,31 +1,46 @@
-Topics: Coding Syntax, Data types, and Data Structures
-@Slack: @Sanzida, @ Bez, @Tatiene, @Hana, @Onyinye
 
-Code Link
+# Topics: Coding Syntax, Data types, and Data Structures
+
+@Slack: @Sanzida, @ Bez, @Tatiene,  @Hana, @Onyinye
+
+## Code Link
 Python: (https://github.com/sanzidaanee/hackbio-biocoding-internship/blob/main/Stage%200/Code/stage_0_task.ipynb)
 
 R: (https://github.com/sanzidaanee/hackbio-biocoding-internship/blob/main/Stage%200/Code/stage0_task.Rmd)
 
-Video link
+## Video link
+
 Python:
 
-R:
+R: 
 
-Task
+## Task
+
 In stage 0 the task is to organize the following information of the team members (names, slack names, emails, hobbies, countries, discipline, and preferred programming languages) using a simple data structure using R or Python.
 
-Dictionaries in Python
+## Dictionaries in Python
+
 A dictionary is a data structure that stores the data values in key-value pairs. The values can be repeated and used in any type of data, whereas the key represents a specific piece of information like an email or name and cannot be repeated and must be used with immutable data types like strings, integers, and tuples. The values are accessed using the keys. Dictionaries are written with curly brackets.
 
 When we input multiple values, we can store them as a list within the dictionary.
 
-How to Create a Dictionary
+## How to Create a Dictionary
+
 A dictionary can be created by placing an order of elements within curly braces {} and separated by a comma.
 
-Nested Dictionary
+## Nested Dictionary
+
 A nested dictionary means putting a dictionary inside another dictionary. To input all the information for the group of people together, we will create a nested dictionary. Nested dictionaries can be created by placing comma-separated dictionaries enclosed with braces.
 
-Create Dictionary for Group Information
+
+
+
+
+
+
+### Create Dictionary for Group Information
+
+```bash
   team_info= [
     {
         "Name": "Kazadi Ngoie",
@@ -73,7 +88,11 @@ Create Dictionary for Group Information
         "Preferred Language": "Python"
     }
 ]
-Print Information in Structured way
+```
+
+### Print Information in Structured way
+
+```bash
   print("Team Members Information:\n")
 
 for member in team_info:
@@ -85,4 +104,7 @@ for member in team_info:
     print(f"Discipline: {member['Discipline']}")
     print(f"Preferred Language: {member['Preferred Language']}")
     print("-" * 40)  # Separator for better readability
+
+```
+
 
