@@ -1,24 +1,32 @@
-# Team Information
+Topics: Coding Syntax, Data types, and Data Structures
+@Slack: @Sanzida, @ Bez, @Tatiene, @Hana, @Onyinye
 
-## Overview
-This repository contains a Python script that structures and prints detailed information about a team of individuals, including their names, Slack usernames, email addresses, hobbies, countries, disciplines, and preferred programming languages.
+Code Link
+Python: (https://github.com/sanzidaanee/hackbio-biocoding-internship/blob/main/Stage%200/Code/stage_0_task.ipynb)
 
-## How I Created This Code
-The Python script was developed to store team members' details using a list of dictionaries. Each dictionary represents an individual team member and contains the following fields:
-- **Name**: The full name of the team member.
-- **Slack Username**: The team member's username on Slack.
-- **Email**: The contact email address.
-- **Hobby**: A personal interest or hobby.
-- **Country**: The team member's country of residence.
-- **Discipline**: The field of study or expertise.
-- **Preferred Language**: The programming language they prefer.
+R: (https://github.com/sanzidaanee/hackbio-biocoding-internship/blob/main/Stage%200/Code/stage0_task.Rmd)
 
-The script iterates through the list and prints each member's details in a structured format for easy readability.
+Video link
+Python:
 
-## Code Implementation
-```python
-# List of dictionaries to store team members' details
-team_info = [
+R:
+
+Task
+In stage 0 the task is to organize the following information of the team members (names, slack names, emails, hobbies, countries, discipline, and preferred programming languages) using a simple data structure using R or Python.
+
+Dictionaries in Python
+A dictionary is a data structure that stores the data values in key-value pairs. The values can be repeated and used in any type of data, whereas the key represents a specific piece of information like an email or name and cannot be repeated and must be used with immutable data types like strings, integers, and tuples. The values are accessed using the keys. Dictionaries are written with curly brackets.
+
+When we input multiple values, we can store them as a list within the dictionary.
+
+How to Create a Dictionary
+A dictionary can be created by placing an order of elements within curly braces {} and separated by a comma.
+
+Nested Dictionary
+A nested dictionary means putting a dictionary inside another dictionary. To input all the information for the group of people together, we will create a nested dictionary. Nested dictionaries can be created by placing comma-separated dictionaries enclosed with braces.
+
+Create Dictionary for Group Information
+  team_info= [
     {
         "Name": "Kazadi Ngoie",
         "Slack Username": "@Tatiene",
@@ -43,7 +51,7 @@ team_info = [
         "Email": "hananadir04@gmail.com",
         "Hobby": "Reading",
         "Country": "Sudan",
-        "Discipline": "Medecinal chemistry and drug discovery",
+        "Discipline": "Medecinal chemistery and drug discovery",
         "Preferred Language": "Python"
     },
     {
@@ -57,17 +65,16 @@ team_info = [
     },
     {
         "Name": "Sanzida Akhter Anee",
-        "Slack Username": "@ethan_b",
+        "Slack Username": "@Sanzida",
         "Email": "aneesanzidaakhter@gmail.com",
         "Hobby": "Blogging",
-        "Country": "Sudan",
+        "Country": "Bangladesh",
         "Discipline": "Bioinformatics",
         "Preferred Language": "Python"
     }
 ]
-
-# Printing the structured team details
-print("Team Members Information:\n")
+Print Information in Structured way
+  print("Team Members Information:\n")
 
 for member in team_info:
     print(f"Name: {member['Name']}")
@@ -78,62 +85,4 @@ for member in team_info:
     print(f"Discipline: {member['Discipline']}")
     print(f"Preferred Language: {member['Preferred Language']}")
     print("-" * 40)  # Separator for better readability
-```
-
-## Output
-When the script is executed, it prints the information of all team members in a structured format:
-```
-Team Members Information:
-
-Name: Kazadi Ngoie
-Slack Username: @Tatiene
-Email: tatianangoie17@gmail.com
-Hobby: Gaming
-Country: South Africa
-Discipline: Bioinformatics
-Preferred Language: Python
-----------------------------------------
-Name: Bezaleel Akinbami
-Slack Username: @Bez
-Email: bezaleelakinbami16@gmail.com
-Hobby: Gaming
-Country: Nigeria
-Discipline: Bioinformatics
-Preferred Language: R
-----------------------------------------
-Name: Hana Nadir
-Slack Username: @Hana
-Email: hananadir04@gmail.com
-Hobby: Reading
-Country: Sudan
-Discipline: Medecinal chemistry and drug discovery
-Preferred Language: Python
-----------------------------------------
-Name: Onyinye Maryrose Ugwu
-Slack Username: @Onyinye
-Email: monyinye80@gmail.com
-Hobby: Travelling
-Country: Nigeria
-Discipline: Zoology
-Preferred Language: Python
-----------------------------------------
-Name: Sanzida Akhter Anee
-Slack Username: @ethan_b
-Email: aneesanzidaakhter@gmail.com
-Hobby: Blogging
-Country: Sudan
-Discipline: Bioinformatics
-Preferred Language: Python
-----------------------------------------
-
-
-## How to Run the Script
-1. **Clone the Repository**
-   git clone https://github.com/your-username/team-info.git
-2. **Navigate to the Project Directory**
-   cd team-info
-3. **Run the Script**
-   python script.py
-   
-
 
